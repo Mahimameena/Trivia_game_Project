@@ -1,0 +1,103 @@
+.main1{
+    height: 550px;
+    width: 700px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.main2 {
+    display: none;
+}
+.main2 {
+    height: 550px;
+    width: 700px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.img-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 30px;
+}
+.logo {
+    width: 80px;
+    border-radius: 50%;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    margin: 50px 20px;
+}
+.player_1, .player_2{
+    text-align: center;
+}
+.trivia_packs{
+    margin-top: 20px;
+    height: 80px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .trivia_packs img {
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .trivia_packs p{
+    margin-top: 25px;
+  }
+.user {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    margin: 20px 20px;
+}
+.category-section{
+    margin: auto;
+    width: 100px;
+}
+#player1_name {
+    margin-right: 70px;
+}
+.fetching {
+    background-color: antiquewhite;
+    padding: 15px;
+    font-size: 18px;
+    text-align: start;
+    width: 600px;
+    height: 330px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fetching h3, h4 {
+    text-align: center;
+}
+#playAgain {
+    margin-left: 250px;
+    width: 110px;
+}
+
+button{
+    color: white;
+      width: 100px;
+      height: 40px;
+      font-size: 20px;
+      background-color: rgb(35, 42, 42);
+      padding:5px;
+  }
+  button:hover{
+    transform: scale(1.1);
+    background-color: rgb(232, 72, 232);
+  }

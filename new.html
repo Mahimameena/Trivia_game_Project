@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Battle Game</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <section class="main1">
+            <h1>Trivia Battle Game</h1>
+            <div class="img-div">
+                <img class="logo" src="images/dp2.jpg" alt="image-one">
+                <img class="logo" src="images/verses.jpg" alt="image-mid">
+                <img class="logo" src="images/dpz.jpg" alt="image-sec">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Enter Name" class="player_1" id="player1">
+                <input type="text" placeholder="Enter Name" class="player_2" id="player2">
+            </div>
+
+            <div class="trivia_packs">
+                <img src="images/collective_packs.jpg" alt="packs" height="70px">
+                <p><b>Topics</b></p>
+                <div class="category-section">
+                    <select class="dropdown-content" id="categoryDropdown">
+                        <option value="" disabled selected>Select a Category</option>
+                        <option value="arts & Literature">Arts & Literature</option>
+                        <option value="general_knowledge">General Knowledge</option>
+                        <option value="society_and_culture">Society & Culture</option>
+                        <option value="food_and_drink">Food & Drink</option>
+                        <option value="film_and_tv">Film & TV</option>
+                        <option value="geography">Geography</option>
+                        <option value="science">Science</option>
+                        <option value="history">History</option>
+                        <option value="music">Music</option>
+                        <option value="sports">Sports</option>
+                    </select>
+                </div>
+            </div>
+            <button id="play_button" class="play_button">Play</button>
+    </section>
+
+    <section class="main2">
+        <div class="user">
+            <h2 id="player1_name"></h2>
+            <h2 id="player2_name"></h2>
+        </div>
+        <h2 id="current_turn"></h2>
+        <button id="start">Start</button>
+
+        <div id="fetching"></div>
+        <div class="btn_div">
+            <button id="exit">Exit</button>
+            <button id="next">Next</button>
+        </div>
+    </section>
+
+    <script src="new.js"></script>
+</body>
+
+</html>
