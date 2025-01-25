@@ -1,26 +1,27 @@
-// Store player names and category
+// store username
 function storeUsername() {
     const player1 = document.getElementById("player1");
     const player2 = document.getElementById("player2");
     const categoryDropdown = document.getElementById("categoryDropdown");
 
     if (player1.value && player2.value && categoryDropdown.value) {
-      
-        
         document.getElementById('player1_name').textContent = player1.value;
         document.getElementById('player2_name').textContent = player2.value;
 
         alert(`Usernames saved: ${player1.value}, ${player2.value}`);
-    } else {
-        alert("Please Enter Usernames and Select a Category.");
     }
 }
 
 document.getElementById('play_button').addEventListener('click', () => {
-    storeUsername();
-    document.querySelector('.main1').style.display = "none";
-    document.querySelector('.main2').style.display = "block";
+    if (player1.value && player2.value && categoryDropdown.value) {
+        storeUsername();
+        document.querySelector('.main1').style.display = "none";
+        document.querySelector('.main2').style.display = "block";
+    } else {
+        alert("Please Enter Usernames and Select a Category.");
+    }
 });
+
 
 // Game variables
 const startBtn = document.getElementById("start");
