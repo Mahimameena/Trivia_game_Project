@@ -100,10 +100,10 @@ const calculateScore = (selectedOption, currentQuestion) => {
                 points = 10;
                 break;
             case "medium":
-                points = 20;
+                points = 15;
                 break;
             case "hard":
-                points = 30;
+                points = 20;
                 break;
         }
 
